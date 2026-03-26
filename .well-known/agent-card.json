@@ -1,0 +1,21 @@
+{
+  "name": "NebulaScan",
+  "description": "A cosmic-grade monitoring runtime for cross-chain bridge activity on Base.",
+  "url": "https://nebulascan.vercel.app",
+  "version": "1.0.0",
+  "author": "Nebula Protocol",
+  "capabilities": ["mcp", "a2a", "tools", "prompts", "resources", "swarm"],
+  "endpoints": {
+    "mcp": "https://nebulascan.vercel.app/mcp",
+    "a2a": "https://nebulascan.vercel.app/a2a",
+    "agentCard": "https://nebulascan.vercel.app/.well-known/agent-card.json"
+  },
+  "skills": [
+    { "name": "bridge_monitor", "description": "Real-time tracking of all bridge transfers to/from Base." },
+    { "name": "peg_checker", "description": "Ensures bridged asset pegs remain within safe thresholds." },
+    { "name": "exploit_scanner", "description": "Detects bridge vulnerability patterns before exploitation." },
+    { "name": "relay_health", "description": "Monitors bridge relay infrastructure uptime." },
+    { "name": "flow_analytics", "description": "Analyzes cross-chain capital migration trends." },
+    { "name": "bridge_report", "description": "Compiles bridge intelligence reports." }
+  ]
+}
